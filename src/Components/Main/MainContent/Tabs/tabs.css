@@ -1,0 +1,35 @@
+.tabs-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #7B7B7B;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tab-item {
+    margin-bottom: 7px;
+    padding: 6px 8px;
+    cursor: pointer;
+}
+
+.tab-item:first-letter {
+    text-transform: uppercase;
+}
+
+.tab-item:not(:last-child) {
+    margin-right: 17px;
+}
+
+.tab-item:hover {
+    background: rgba(196, 196, 196, 0.2);
+    border-radius: 10px;
+}
+
+.active-tab {
+    background: rgba(196, 196, 196, 0.5);
+    border-radius: 10px;
+    color: #343434;
+}

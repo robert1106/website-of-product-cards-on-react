@@ -1,0 +1,21 @@
+.search-page {
+    margin: auto 0;
+    display: inline-block;
+    height: 50px;
+    width: 500px;
+    border: 2px solid #323232;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding-left: 47px;
+    background-image: url("./map-icon.svg");
+    background-repeat: no-repeat;
+    background-position: 17px center;
+}
+
+.search-page::placeholder {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #A1A1A1;
+    font-family: 'Montserrat', sans-serif;
+}

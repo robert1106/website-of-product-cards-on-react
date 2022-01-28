@@ -1,0 +1,41 @@
+.footer {
+    padding: 30px 0;
+    background: linear-gradient(91.41deg, #323232 25.4%, #000000 75.33%);
+}
+
+.footer-list {
+    display: flex;
+    list-style: none;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin: auto 0;
+}
+
+.footer-list-item {
+    margin-right: 22px;
+}
+
+.footer-telegram {
+    background-image: url("./icon-telegram.svg");
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    margin-right: 18px;
+}
+
+.footer-facebook {
+    background-image: url("./icon-facebook.svg");
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    margin-right: 18px;
+}
+
+.footer-instagram {
+    background-image: url("./icon-instagram.svg");
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+}

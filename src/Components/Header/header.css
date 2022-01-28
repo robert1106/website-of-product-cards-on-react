@@ -1,0 +1,22 @@
+.header {
+    padding: 11px 0 12px;
+    background: #ffffff;
+}
+
+.header-left {
+    height: 77px;
+    display: flex;
+}
+
+.logo-img {
+    display: inline-block;
+    background-image: url("./logo-img.svg");
+    width: 77px;
+    height: inherit;
+    background-repeat: no-repeat;
+    margin-right: 100px;
+}
+
+.header-right {
+    margin: auto 0;
+}

@@ -1,0 +1,66 @@
+.tab-cards-title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    padding: 0;
+    margin-bottom: 35px;
+}
+
+.tab-cards-title:first-letter {
+    text-transform: uppercase;
+}
+
+.tab-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 230px);
+    grid-gap: 30px 42px;
+}
+
+.tab-card {
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+    width: 230px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 140px 27px 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tab-card-img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 140px;
+    width: 230px;
+    object-fit: cover;
+}
+
+.tab-card-productName {
+    display: inline-block;
+    margin: 14px 0 10px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tab-card-ingredients {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: #A2A2A2;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tab-card-price {
+
+}
+
